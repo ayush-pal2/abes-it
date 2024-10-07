@@ -1,0 +1,64 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.navbar{
+    display:flex;
+    background-color: aqua;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.menubar{
+    display:flex;
+    align-items:center;
+
+}
+.menu-items{
+    border: 3px solid rgb(12, 213, 15);
+    background-color: rgb(242, 145, 55);
+    font-size:20px;
+    color:beige;
+    border-radius:12px;
+    margin:20px;
+}
+
+a{
+    text-decoration: none;
+}
+.lgn,.sgn{
+    background-color: deeppink;
+    font-size: 20px;
+    color:antiquewhite;
+    border-radius: 20px;
+    margin: 12px;
+}
+
+.main-content{
+    display:flex;
+    justify-content: space-between;
+    background-color:chartreuse; 
+    border: 5px solid greenyellow;
+    margin:20px;
+}
+.about-website{
+    width:40%;
+    font-size: 20px;
+    text-align:justify ;
+
+}
+.news{
+    width:30%;
+}
+.login-panel{
+    width:30%;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.footer{
+    background-color: aqua;
+}
+.copyright{
+    text-align: center;
+}
