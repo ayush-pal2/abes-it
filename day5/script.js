@@ -15,14 +15,15 @@
 //     let x = promt("enter your name" ,"Ayush");
 //     alert(x);
 // }
+
 function validate(){
     let login=document.getElementById("login").value;
     let pass=document.getElementById("pass").value;
-    if(login=="admin" && pass=="admin"){
-        p1.innerText="login success"
+    let p1=document.getElementById("result");
+    if(login=="admin"&&pass=="admin"){
+       p1.innerText="Login Successful";
+    }else{
+        p1.innerText="Invalid Login";
     }
-    else p1.innerText ="Login Failed";
-    return false;
-
 }
 
